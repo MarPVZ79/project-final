@@ -1,0 +1,14 @@
+app:
+  host-url: http://localhost
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jira
+    username: ${DEV_DB_USERNAME}
+    password: ${DEV_DB_PASSWORD}
+
+logging:
+  level:
+    root: DEBUG
+    com.javarush.jira: DEBUG
+    com.javarush.jira.common.config.MvcConfig: DEBUG
+    org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver: DEBUG
