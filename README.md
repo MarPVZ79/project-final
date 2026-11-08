@@ -27,4 +27,8 @@
 - https://habr.com/ru/articles/259055/
 
 Список выполненных задач:
-...
+1) Разобраться со структурой проекта (onboarding).
+2) Удалить социальные сети: vk, yandex.
+3) Переделать тесты так, чтоб во время тестов использовалась in memory БД (H2)
+4) Тесты для всех публичных методов контроллера ProfileRestController (частично)
+5) Рефакторинг метода com.javarush.jira.bugtracking.attachment.FileUtil#upload
