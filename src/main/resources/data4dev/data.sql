@@ -4,7 +4,7 @@ FROM USERS;
 alter
 sequence USERS_ID_SEQ restart with 1;
 insert into USERS (EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, DISPLAY_NAME)
-values ('user@gmail.com', '{noop}password', 'userFirstName', 'userLastName', 'userDisplayName'),
+ values ('user@gmail.com', '{noop}password', 'userFirstName', 'userLastName', 'userDisplayName'),
        ('admin@gmail.com', '{noop}admin', 'adminFirstName', 'adminLastName', 'adminDisplayName'),
        ('guest@gmail.com', '{noop}guest', 'guestFirstName', 'guestLastName', 'guestDisplayName'),
        ('manager@gmail.com', '{noop}manager', 'managerFirstName', 'managerLastName', 'managerDisplayName'),
